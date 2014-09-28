@@ -4,7 +4,7 @@ qikscp
 Fast download of a folder instead of using SCP
 
 Usage:
-sh qikscp.sh identityFile.pem user@Hostname /sourceFolderPathOnRemoteMachine /destFolderPathOnHostMachine
+sh qikscp.sh identityFile.pem user@RemoteMachine /sourceFolderPathOnRemoteMachine /destFolderPathOnHostMachine
 
 1. ssh login, tar to temp archive, exit
 
